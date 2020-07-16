@@ -22,6 +22,9 @@
     transform: translate(-50%, -50%);
     box-shadow: 1px 1px 5px #5f27cd;
 }
+.signUpForm h1 {
+    font-weight: 700;
+}
 .txtb {
     border-bottom: 2px solid #adadad;
     position: relative;

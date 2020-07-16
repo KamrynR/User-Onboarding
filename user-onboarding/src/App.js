@@ -10,7 +10,8 @@ function App() {
     <div className="App">
       <Form users={users} setUsers={setUsers}/>
       <ul>
-        <UserList list={users}/>
+        {users.length !== 0 && <div className='users-header'>List of Users</div>}
+        {users.length !== 0 && <UserList list={users}/>}
       </ul>
     </div>
   );
