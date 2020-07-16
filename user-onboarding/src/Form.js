@@ -30,10 +30,9 @@ const Form = props => {
     const formSubmit = e => {
         e.preventDefault();
         console.log('form submitted!');
-        if(formState){props.setUsers([...props.users, {formState}])}
         axios
             .post('https://reqres.in/api/users', formState)
-            .then(() => console.log('form submission success'))
+            .then(() => {props.setUsers([...props.users, {formState}])})
             .catch(err => console.log(err));
     };
     const validateChange = e => {

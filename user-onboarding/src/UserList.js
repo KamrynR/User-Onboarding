@@ -2,7 +2,7 @@ import React from 'react';
 import './UserList.css';
 
 const UserList = props => {
-    console.log(props.list);
+    // console.log(props.list);
     return (
         <li className='UL'>
             {props.list.map((e, i) => (
