@@ -1,0 +1,28 @@
+.UL {
+    border-top: 5px solid black;
+    background-image: linear-gradient(10deg,#48dbfb,#5f27cd);
+    display: flex;
+    flex-direction: column;
+
+}
+.users {
+    background-color: white;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 4px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.users p {
+    margin-left: 5%;
+}
+
+.users h1 {
+    margin-left: 5%;
+}
