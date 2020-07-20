@@ -1,0 +1,36 @@
+.UL {
+    border-top: 4px solid black;
+    background-image: linear-gradient(10deg,#34495e,#2c3e50);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.users {
+    background-image: linear-gradient(-10deg,#34495e,#2c3e50);
+    width: 40%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    border: 4px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.users:nth-child(1) {
+    margin-top: 3%;
+}
+.users:nth-child(2) {
+    margin-top: 3%;
+}
+
+.users p {
+    margin-left: 5%;
+}
+
+.users h1 {
+    margin-left: 5%;
+}
